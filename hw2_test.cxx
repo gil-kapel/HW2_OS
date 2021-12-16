@@ -1,4 +1,6 @@
 #include "hw2_test.h"
+#include <iostream> 
+#include <unistd.h> 
 
 int set_weight(int weight) {
     long r = syscall(334, weight);
